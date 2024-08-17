@@ -43,3 +43,40 @@ The overwhelming volume of information we encounter daily, from lengthy emails t
 
 ## License
 This project is licensed under the MIT License.
+
+
+InsightfulSummarizer/
+│
+├── Controllers/
+│   └── SummarizerController.cs
+│
+├── Models/
+│   └── SummarizeRequest.cs
+│   └── SummarizeResponse.cs
+│   └── SearchRequest.cs
+│   └── SearchResponse.cs
+│
+├── Services/
+│   └── SummarizerService.cs
+│   └── VectorSearchService.cs
+│
+├── ClientApp/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   ├── components/
+│   │   │   └── Summarizer.js
+│   │   │   └── Search.js
+│   ├── package.json
+│
+├── wwwroot/
+│   └── css/
+│   └── js/
+│
+├── appsettings.json
+├── Program.cs
+├── Startup.cs
+└── README.md
+

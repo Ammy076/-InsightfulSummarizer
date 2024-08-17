@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.Summarizer, .Search {
+  margin: 20px;
+}
+
+textarea, input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}

@@ -1,0 +1,17 @@
+using InsightfulSummarizer.Models;
+
+namespace InsightfulSummarizer.Services
+{
+    public class SummarizerService
+    {
+        public SummarizeResponse Summarize(SummarizeRequest request)
+        {
+            // Placeholder for AI summarization logic.
+            // Replace with actual model call.
+            return new SummarizeResponse
+            {
+                Summary = "This is a summary of the input text."
+            };
+        }
+    }
+}
